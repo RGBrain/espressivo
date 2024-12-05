@@ -1,22 +1,25 @@
 import React from 'react'
 import Image from 'next/image'
+import NavItem from './NavItem'
 
 export default function navbar() {
   return (
-    <nav className='bg-orange-500 py-0 m-0 text-xl font-bold text-white'>
-      <ul className="flex mx-2 p-6 items-center justify-between">
-        <Image
+    <nav className='esporange py-0 my-0 text-xl font-bold text-white mx-auto'>
+      <div className="flex">
+      <Image
               src="/Espressivo.png"
-              width={150}
-              height={150}
+              width={100}
+              height={100}
               alt="Espressivo Logo"
               />
-        <li className='p-3'>Whats on</li>
-        <li className='p-3'>Previous Events</li>
-        <li className='p-3'>About Us</li>
-        <li className='p-3'>Contact Us</li>
+      <ul className="relative flex mx-2 p-6 items-center justify-between bg-esporange">
+          <NavItem linkName="Whats On" />
+          <NavItem linkName="Previous Events" />
+          <NavItem linkName="About Us" />
+          <NavItem linkName="Contact Us" />
         </ul>
-    </nav>
+      </div>
+    </nav> 
   )
 }
 
