@@ -4,7 +4,7 @@ import NavItem from './NavItem'
 
 export default function navbar() {
   return (
-    <nav className='esporange py-0 my-0 text-xl font-bold text-white mx-auto'>
+    <nav className='esporange py-0 my-0 font-bold text-white mx-auto'>
       <div className="flex">
       <Image
               src="/Espressivo.png"
@@ -12,7 +12,7 @@ export default function navbar() {
               height={100}
               alt="Espressivo Logo"
               />
-      <ul className="relative flex mx-2 p-6 items-center justify-between bg-esporange">
+      <ul className="relative flex mx-auto p-6 items-center justify-between bg-esporange w-full">
           <NavItem linkName="Whats On" />
           <NavItem linkName="Previous Events" />
           <NavItem linkName="About Us" />
