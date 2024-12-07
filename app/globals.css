@@ -2,4 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
- 
+.div_TopEvent {
+  background-image: url("../public/engegard_quartet.jpeg");
+  background-repeat: no-repeat;
+  background-position: center; 
+}
