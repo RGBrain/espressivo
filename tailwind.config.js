@@ -8,8 +8,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        esporange: "#cb5b09",  
-        espbeige: "#dbd3ad"      
+        orange: "#cb5b09",
+        beige: "#dbd3ad", 
+        white: "#ffffff",
+        black: "#041003"   
       },
     },
   },
