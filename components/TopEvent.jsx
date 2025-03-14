@@ -4,17 +4,22 @@ import Image from 'next/image'
 // mainImage = as
 
 const TopEvent = ({concertData}) => {
-  const imagePath = '/' + concertData.artist_entity_img_filename; 
+  const imagePath = '/' + concertData.artist_entity_img_filename;
+  const classNameWords = `bg-[url(${imagePath})]` ; 
   
   return (
-    <div className="w-full bg-white h-80"> 
-      <Image
+    <div className={classNameWords}> 
+
+
+
+      {/* <Image
+      className=""
       src= {imagePath}
       width={500}
       height={500}
       alt="Picture of the author"
-    />
-    <div>{concertData.artist_entity_name}</div>
+    /> */}
+    <div className='mt--5'>{concertData.artist_entity_name}</div>
     </div>
   );
 }
