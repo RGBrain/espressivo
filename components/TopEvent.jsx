@@ -1,11 +1,20 @@
 import React from 'react'
+import Image from 'next/image'
+
+// mainImage = as
 
 const TopEvent = ({concertData}) => {
+  const imagePath = '/' + concertData.artist_entity_img_filename; 
+  
   return (
-    <div className="w-full bg-white h-80 div_TopEvent"> 
-    {/* the background image is in globals.css (.div_TopEvent) at the moment, but because the image is got dynamically from the database, i think instead of using globals.css for that, might need some sort of styles object in this page ... or page.js, because these two pages would have access to the concert data */}
+    <div className="w-full bg-white h-80"> 
+      <Image
+      src= {imagePath}
+      width={500}
+      height={500}
+      alt="Picture of the author"
+    />
     <div>{concertData.artist_entity_name}</div>
-    <div>{concertData.concert_fee}</div>
     </div>
   );
 }
