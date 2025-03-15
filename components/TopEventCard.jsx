@@ -16,7 +16,7 @@ const TopEventCard = ({ concertData }) => {
       <h3 className="text-2xl text-white absolute p-5 bottom-20 left-5">
         {dateOfConcert.toDateString()} &nbsp;&nbsp;&nbsp; {concertData.venue_name} &nbsp;&nbsp;&nbsp; {concertData.venue_town}
       </h3>
-      <BtnBookTickets />
+      <BtnBookTickets BookTicketsLink={concertData.concert_book_tickets_link} />
     </div>
   );
 };
