@@ -28,6 +28,12 @@ exports.seed = async function (knex) {
       composer_last_name: "Beethoven",
       composer_display_name: "Beethoven",
     },
+    {
+      composer_id: 4,
+      composer_first_name: "Wolfgang Amadeus",
+      composer_last_name: "Mozart",
+      composer_display_name: "Mozart",
+    },
   ]);
 };
 

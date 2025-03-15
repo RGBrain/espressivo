@@ -12,7 +12,12 @@ exports.seed = async function (knex) {
     {
       img_artist_entity_id: 1,
       artist_entity_id: 1,
-      artist_entity_img_filename: "artist_entity1.jpg",
+      artist_entity_img_filename: "engegard_quartet.jpg",
+    },
+    {
+      img_artist_entity_id: 2,
+      artist_entity_id: 2,
+      artist_entity_img_filename: "cardiff_winds.jpg",
     },
   ]);
 };

@@ -1,17 +1,21 @@
 /**
  * @param { import("knex").Knex } knex
- * @returns { Promise<void> } 
+ * @returns { Promise<void> }
  */
- exports.seed = async function(knex) {
+exports.seed = async function (knex) {
   // Deletes ALL existing entries
-  await knex('artist_entities').del()
-  await knex('artist_entities').insert([
+  await knex("artist_entities").del();
+  await knex("artist_entities").insert([
     {
-      artist_entity_id: 1, 
-      artist_entity_name: 'Enge Quartet',
-      artist_entity_website: ''
-    }
-    
+      artist_entity_id: 1,
+      artist_entity_name: "Engegard Quartet",
+      artist_entity_website: "",
+    },
+    {
+      artist_entity_id: 2,
+      artist_entity_name: "Cardiff Winds",
+      artist_entity_website: "",
+    },
   ]);
 };
 
