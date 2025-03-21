@@ -8,8 +8,9 @@ const eventOverview = "Espressivo is delighted to have engaged the superb Engega
 
 const TopEventInfo = ({ concertData }) => {
   return (
-    <div className="flex justify-center relative">
-        <p>{eventOverview}</p>
+    <div className="flex flex-wrap justify-center relative">
+        <p className="font-bold text-orange m-5 p-5">{eventOverview}</p>
+        <div className="border-b-2 border-orange w-96"></div>
     </div>
   );
 };
