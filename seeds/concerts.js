@@ -12,6 +12,7 @@ exports.seed = async function (knex) {
       concert_title: " ",
       artist_entity_id: 1,
       venue_id: 1,
+      concert_overview: "Espressivo is delighted to have engaged the superb Engegard Quartet from Norway to give two concerts in Herefordshire as part of their UK tour on Saturday 30 September and Sunday 1 October 2023.",
       concert_fee: "£18 (students free)",
       concert_fee_more_info: "",
       concert_status_id: 1,

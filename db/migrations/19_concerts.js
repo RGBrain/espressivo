@@ -8,6 +8,7 @@ exports.up = (knex) => {
     table.datetime("concert_datetime").notNullable();
     table.string("concert_title", 255); // optional - i guess is usuall NULL - i considered putting concert title in another table to be more normalized and not have NULL values, but it is just more hassle to do that maybe
     table.string("concert_description", 5000);
+    table.string("concert_overview", 200);
     table.integer("artist_entity_id").unsigned().notNullable();
     table.integer("venue_id").unsigned().notNullable();
     table.string("concert_fee", 255).notNullable();
