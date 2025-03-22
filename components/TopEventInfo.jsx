@@ -18,7 +18,7 @@ const TopEventInfo = ({ concertData }) => {
       <div className="border-b-2 border-orange w-96"></div>
 
       {/* Need to update props (from works to individual artist info) to right object once db is set up */}
-      <ArtistTable works={concertData.concert_works} />
+      <ArtistTable artist_members={concertData.artist_members} />
       <div className="border-b-2 border-orange w-96"></div>
       <p className="font-bold m-5 p-5">{concertData.concert_description}</p>
     </div>

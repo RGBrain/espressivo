@@ -8,25 +8,25 @@ exports.seed = async function (knex) {
   await knex("artist_members").insert([
     {
       artist_member_id: 1,
-      artist_member_name: "Michael Taylor", // Capitalize or all lowercase ????
+      artist_member_name: "Arvid Engegård", // Capitalize or all lowercase ????
       instrument_id: 1,
       artist_member_website: "",
     },
     {
       artist_member_id: 2,
-      artist_member_name: "Peter Smith", // Capitalize or all lowercase ????
+      artist_member_name: "Laura Custodio Sabas", // Capitalize or all lowercase ????
       instrument_id: 1,
       artist_member_website: "",
     },
     {
       artist_member_id: 3,
-      artist_member_name: "Hilary Davis", // Capitalize or all lowercase ????
+      artist_member_name: "Juliet Jopling", // Capitalize or all lowercase ????
       instrument_id: 2,
       artist_member_website: "",
     },
     {
       artist_member_id: 4,
-      artist_member_name: "Gerald Lion", // Capitalize or all lowercase ????
+      artist_member_name: "Jan Clemens Carlsen", // Capitalize or all lowercase ????
       instrument_id: 3,
       artist_member_website: "",
     },

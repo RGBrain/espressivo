@@ -12,7 +12,7 @@ exports.seed = async function (knex) {
       concert_title: " ",
       artist_entity_id: 1,
       venue_id: 1,
-      concert_overview: "Espressivo is delighted to have engaged the superb Engegard Quartet from Norway to give two concerts in Herefordshire as part of their UK tour on Saturday 30 September and Sunday 1 October 2023.",
+      concert_overview: "Espressivo is delighted to have engaged the superb Engegård Quartet from Norway to give two concerts in Herefordshire as part of their UK tour on Saturday 30 September and Sunday 1 October 2023.",
       concert_description:
         "Formed under the midnight sun in Lofoten in 2005, the Engegård Quartet have rapidly become one of Norway’s most sought-after ensembles. Their bold, fresh interpretations of the classical repertoire, combined with a deep attachment to their Scandinavian roots, has attracted international acclaim and inspired some innovative partnerships and programming. The Quartet’s debut CD was praised as ‘breath-taking’ in The Strad, while their second release won Pizzicato magazine’s ‘Supersonic Award’. Recent CD releases include Mozart’s ‘Prussian Quartets’ and the complete string quartets of Schumann. Such is their stature that they have performed with such world-famous musicians as pianists Sir András Schiff and Leif Ove Andsnes.",
       concert_fee: "£18 (students free)",
