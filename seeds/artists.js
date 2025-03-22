@@ -8,7 +8,7 @@ exports.seed = async function (knex) {
   await knex("artists").insert([
     {
       artist_id: 1,
-      artist_name: "Engegard Quartet",
+      artist_name: "Engegård Quartet",
       artist_website: "",
       artist_type_id: 1,
     },
