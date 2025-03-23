@@ -4,7 +4,7 @@ const ArtistTable = ({ artist_members }) => {
   const rows = artist_members.map((item) => Object.values(item));
 
   return (
-    <table className="table-fixed m-5 p-5 md:text-xs lg:text-sm">
+    <table className="m-5 table-fixed p-5 md:text-xs lg:text-sm">
       <tbody>
         {rows.map((row, index) => (
           <tr key={index}>
