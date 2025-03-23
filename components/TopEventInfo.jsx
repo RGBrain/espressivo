@@ -4,7 +4,7 @@ import ArtistTable from "./ArtistTable";
 
 const TopEventInfo = ({ concertData }) => {
   return (
-    <div className="flex flex-col md:flex-row justify-center relative md:gap-9">
+    <div className="flex flex-col md:flex-row justify-center relative md:gap-1">
       <div className="md:grow-2 md:basis-2/3">
         <p className="font-bold text-orange m-5 p-5">{concertData.concert_overview}</p>
         <div className="border-b-2 border-orange border-opacity-50 mx-20"></div>
