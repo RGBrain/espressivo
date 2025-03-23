@@ -15,7 +15,7 @@ const TopEventInfo = ({ concertData }) => {
       <div className="md:grow-1 md:basis-1/3">
         <ArtistTable artist_members={concertData.artist_members} />
         <div className="border-b-2 border-orange border-opacity-50 mx-20"></div>
-        <p className="font-bold m-5 p-5">{concertData.concert_description}</p>
+        <p className="font-bold m-5 p-5 md:text-xs lg:text-sm">{concertData.concert_description}</p>
       </div>
     </div>
   );
