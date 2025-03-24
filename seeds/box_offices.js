@@ -20,7 +20,7 @@ exports.seed = async function (knex) {
       box_office_id: 2,
       box_office_name: "The Courtyard, Hereford",
       box_office_phone_number: "01432 340555",
-      box_office_website: "www.courtyard.org.uk", // do i store the http/https on the db as well!!! (I guess so...)
+      box_office_website: "https://www.courtyard.org.uk", // do i store the http/https on the db as well!!! (I guess so...)
     },
   ]);
 };

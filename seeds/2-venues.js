@@ -1,38 +1,37 @@
 /**
  * @param { import("knex").Knex } knex
- * @returns { Promise<void> } 
+ * @returns { Promise<void> }
  */
- exports.seed = async function(knex) {
+exports.seed = async function (knex) {
   // Deletes ALL existing entries
-  await knex('venues').del()
-  await knex('venues').insert([
+  await knex("venues").del();
+  await knex("venues").insert([
     {
-      venue_id: 1, 
-      venue_name: 'Hellens',
-      venue_email: '',
-      venue_phone_number: '',
-      venue_website: 'hellensmanor.com',  // i am guessing... 
-      venue_address_line1: '',
-      venue_address_line2: '',
-      venue_town: 'Much Marcle',
-      venue_city: '',
+      venue_id: 1,
+      venue_name: "Hellens",
+      venue_email: "",
+      venue_phone_number: "",
+      venue_website: "hellensmanor.com", // i am guessing...
+      venue_address_line1: "",
+      venue_address_line2: "",
+      venue_town: "Much Marcle",
+      venue_city: "",
       county_id: 1,
-      venue_postcode: 'HR8'
-    }, 
+      venue_postcode: "HR8 2LY",
+    },
     {
-      venue_id: 2, 
-      venue_name: 'Lion Ballroom',
-      venue_email: '',
-      venue_phone_number: '',
-      venue_website: 'lionballroom.com',  // i am guessing... 
-      venue_address_line1: '',
-      venue_address_line2: '',
-      venue_town: 'Leominster',
-      venue_city: '',
+      venue_id: 2,
+      venue_name: "Lion Ballroom",
+      venue_email: "",
+      venue_phone_number: "",
+      venue_website: "lionballroom.com", // i am guessing...
+      venue_address_line1: "",
+      venue_address_line2: "",
+      venue_town: "Leominster",
+      venue_city: "",
       county_id: 1,
-      venue_postcode: 'HR8'
-    }
-    
+      venue_postcode: "HR8",
+    },
   ]);
 };
 

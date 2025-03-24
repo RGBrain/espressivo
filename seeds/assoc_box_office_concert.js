@@ -31,7 +31,7 @@ exports.seed = async function (knex) {
       box_office_id: 2,
       concert_id: 2,
       box_office_phone_number: "01432 340555",
-      box_office_website_link: "www.courtyard.org.uk", // i guess there is a more specific link than this though...
+      box_office_website_link: "https://www.courtyard.org.uk", // i guess there is a more specific link than this though...
       order_no: 1,
     },
   ]);
