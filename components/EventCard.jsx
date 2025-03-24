@@ -10,10 +10,10 @@ const EventCard = ({ concertData }) => {
     >
       <div className="w-2xl w-full bg-black bg-opacity-70 pb-2">
         {/* div to group artistName and date + venue */}
-        <h2 className="mb-1 ml-5 text-xl font-semibold text-white">
+        <h2 className="mb-1 ml-5 text-2xl font-semibold text-white">
           {concertData.artist_entity_name}
         </h2>
-        <h3 className="ml-5 text-sm leading-snug text-white">
+        <h3 className="ml-5 text-sm leading-tight text-white">
           {new Date(concertData.concert_timestamp * 1000).toDateString()} <br />
           {concertData.venue_name} &nbsp; {concertData.venue_town}
         </h3>
