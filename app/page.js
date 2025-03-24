@@ -2,6 +2,7 @@ import { db, raw } from "../lib/db";
 import TopEventCard from "@/components/TopEventCard";
 import TopEventInfo from "@/components/TopEventInfo";
 import { getConcertDataForNextConcert } from "../lib/db";
+import FutureEvents from "@/components/FutureEvents";
 
 const nextConcertData = await getConcertDataForNextConcert();
 
@@ -14,6 +15,7 @@ export default function Home() {
     <>
       <TopEventCard concertData={nextConcertData} />
       <TopEventInfo concertData={nextConcertData} />
+      <FutureEvents className="hidden lg:block" />
     </>
   );
-}   
+}
