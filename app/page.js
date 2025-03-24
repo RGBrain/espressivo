@@ -15,7 +15,7 @@ export default function Home() {
     <>
       <TopEventCard concertData={nextConcertData} />
       <TopEventInfo concertData={nextConcertData} />
-      <FutureEvents className="hidden lg:block" />
+      <FutureEvents />
     </>
   );
 }

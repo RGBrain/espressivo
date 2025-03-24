@@ -23,7 +23,7 @@ exports.seed = async function (knex) {
     },
     {
       concert_id: 2,
-      concert_datetime: "2024-10-01 15:00:00",
+      concert_datetime: "2025-10-01 15:00:00",
       concert_title: " ",
       artist_entity_id: 2,
       venue_id: 2,
