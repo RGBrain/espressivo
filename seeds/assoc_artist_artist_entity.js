@@ -22,6 +22,12 @@ exports.seed = async function (knex) {
       artist_entity_id: 2,
       order_no: 1,
     },
+    {
+      assoc_artist_artist_entity_id: 3,
+      artist_id: 3,
+      artist_entity_id: 3,
+      order_no: 1,
+    },
   ]);
 };
 

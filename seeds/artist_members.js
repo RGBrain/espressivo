@@ -30,6 +30,12 @@ exports.seed = async function (knex) {
       instrument_id: 3,
       artist_member_website: "",
     },
+    {
+      artist_member_id: 5,
+      artist_member_name: "Michael Bochmann", // Capitalize or all lowercase ????
+      instrument_id: 4,
+      artist_member_website: "",
+    },
   ]);
 };
 

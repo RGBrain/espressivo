@@ -1,15 +1,18 @@
 /**
  * @param { import("knex").Knex } knex
- * @returns { Promise<void> } 
+ * @returns { Promise<void> }
  */
- exports.seed = async function(knex) {
+exports.seed = async function (knex) {
   // Deletes ALL existing entries
-  await knex('counties').del()
-  await knex('counties').insert([
+  await knex("counties").del();
+  await knex("counties").insert([
     {
-      county_id: 1, 
-      county_name: 'Herefordshire'
-    }
-    
+      county_id: 1,
+      county_name: "Herefordshire",
+    },
+    {
+      county_id: 2,
+      county_name: "Gloucestershire",
+    },
   ]);
 };

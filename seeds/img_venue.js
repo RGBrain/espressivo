@@ -19,5 +19,10 @@ exports.seed = async function (knex) {
       venue_id: 2,
       venue_img_filename: "lion_ballroom.jpg",
     },
+    {
+      img_venue_id: 3,
+      venue_id: 3,
+      venue_img_filename: "berkeley_castle.jpg",
+    },
   ]);
 };

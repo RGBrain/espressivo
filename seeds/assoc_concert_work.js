@@ -46,6 +46,42 @@ exports.seed = async function (knex) {
       work_id: 6,
       order_no: 3,
     },
+    {
+      assoc_concert_work_id: 7,
+      concert_id: 3,
+      work_id: 7,
+      order_no: 1,
+    },
+    {
+      assoc_concert_work_id: 8,
+      concert_id: 3,
+      work_id: 8,
+      order_no: 2,
+    },
+    {
+      assoc_concert_work_id: 9,
+      concert_id: 3,
+      work_id: 9,
+      order_no: 3,
+    },
+    {
+      assoc_concert_work_id: 10,
+      concert_id: 3,
+      work_id: 10,
+      order_no: 4,
+    },
+    {
+      assoc_concert_work_id: 11,
+      concert_id: 3,
+      work_id: 11,
+      order_no: 5,
+    },
+    {
+      assoc_concert_work_id: 12,
+      concert_id: 3,
+      work_id: 12,
+      order_no: 6,
+    },
   ]);
 };
 

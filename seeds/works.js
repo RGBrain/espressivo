@@ -40,6 +40,36 @@ exports.seed = async function (knex) {
       composer_id: 4,
       work_title: "Serenade No.11 in E flat K375",
     },
+    {
+      work_id: 7,
+      composer_id: 5,
+      work_title: "‘Winter’ from The Four Seasons",
+    },
+    {
+      work_id: 8,
+      composer_id: 4,
+      work_title: "Clarinet Concerto in A K622",
+    },
+    {
+      work_id: 9,
+      composer_id: 6,
+      work_title: "Pastoral Symphony from Messiah",
+    },
+    {
+      work_id: 10,
+      composer_id: 7,
+      work_title: "Brandenburg Concerto No 6 in B flat",
+    },
+    {
+      work_id: 11,
+      composer_id: 8,
+      work_title: "O Holy Night",
+    },
+    {
+      work_id: 12,
+      composer_id: 9,
+      work_title: "Sleigh Ride",
+    },
   ]);
 };
 

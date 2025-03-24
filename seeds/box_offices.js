@@ -22,6 +22,12 @@ exports.seed = async function (knex) {
       box_office_phone_number: "01432 340555",
       box_office_website: "https://www.courtyard.org.uk", // do i store the http/https on the db as well!!! (I guess so...)
     },
+    {
+      box_office_id: 3,
+      box_office_name: "Roses Theatre",
+      box_office_phone_number: "01684 295074",
+      box_office_website: "https://www.rosestheatre.org", // do i store the http/https on the db as well!!! (I guess so...)
+    },
   ]);
 };
 

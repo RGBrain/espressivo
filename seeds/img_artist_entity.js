@@ -19,5 +19,10 @@ exports.seed = async function (knex) {
       artist_entity_id: 2,
       artist_entity_img_filename: "cardiff_winds.jpg",
     },
+    {
+      img_artist_entity_id: 3,
+      artist_entity_id: 3,
+      artist_entity_img_filename: "orchestra_pro_anima.jpg",
+    },
   ]);
 };

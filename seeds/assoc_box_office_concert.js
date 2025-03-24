@@ -34,6 +34,14 @@ exports.seed = async function (knex) {
       box_office_website_link: "https://www.courtyard.org.uk", // i guess there is a more specific link than this though...
       order_no: 1,
     },
+    {
+      assoc_box_office_concert_id: 4,
+      box_office_id: 3,
+      concert_id: 3,
+      box_office_phone_number: "01684 295074",
+      box_office_website_link: "https://www.rosestheatre.org", // i guess there is a more specific link than this though...
+      order_no: 1,
+    },
   ]);
 };
 

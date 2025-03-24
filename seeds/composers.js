@@ -34,6 +34,36 @@ exports.seed = async function (knex) {
       composer_last_name: "Mozart",
       composer_display_name: "Mozart",
     },
+    {
+      composer_id: 5,
+      composer_first_name: "Antonio",
+      composer_last_name: "Vivaldi",
+      composer_display_name: "Vivaldi",
+    },
+    {
+      composer_id: 6,
+      composer_first_name: "George Frideric",
+      composer_last_name: "Handel",
+      composer_display_name: "Handel",
+    },
+    {
+      composer_id: 7,
+      composer_first_name: "Johann Sebastian",
+      composer_last_name: "Bach",
+      composer_display_name: "Bach",
+    },
+    {
+      composer_id: 8,
+      composer_first_name: "Adolphe",
+      composer_last_name: "Adam",
+      composer_display_name: "Adolphe Adam",
+    },
+    {
+      composer_id: 9,
+      composer_first_name: "Leroy",
+      composer_last_name: "Anderson",
+      composer_display_name: "Leroy Anderson",
+    },
   ]);
 };
 

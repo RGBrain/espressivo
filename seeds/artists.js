@@ -18,6 +18,12 @@ exports.seed = async function (knex) {
       artist_website: "",
       artist_type_id: 2,
     },
+    {
+      artist_id: 3,
+      artist_name: "Orchestra Pro Anima",
+      artist_website: "",
+      artist_type_id: 3,
+    },
   ]);
 };
 

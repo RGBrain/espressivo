@@ -14,5 +14,9 @@ exports.seed = async function (knex) {
       artist_type_id: 2,
       artist_type_text: "wind ensemble", // Capitalize or all lowercase ?
     },
+    {
+      artist_type_id: 3,
+      artist_type_text: "string orchestra", // Capitalize or all lowercase ?
+    },
   ]);
 };

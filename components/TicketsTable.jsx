@@ -6,6 +6,8 @@ const TicketsTable = ({ concertData }) => {
   const td_venue_details = `${concertData.venue_name}, ${concertData.venue_town}, ${concertData.venue_postcode}`;
   const boxOfficeInfo = concertData.box_office_info;
 
+  const numberOfBoxOffices = boxOfficeInfo.length;
+
   return (
     <table className="m-5 table-fixed p-5 md:text-xs lg:text-sm">
       <tbody>
@@ -41,7 +43,8 @@ const TicketsTable = ({ concertData }) => {
                   ) : (
                     ""
                   )}
-                  {!index ? "," : ""}
+                  {!index && numberOfBoxOffices > 1 ? "," : ""}{" "}
+                  {/* this code is to make a comma appear after the first Box office details IF there is a second Box office also */}
                 </li>
               ))}
             </ul>

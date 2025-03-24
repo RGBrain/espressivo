@@ -18,5 +18,9 @@ exports.seed = async function (knex) {
       instrument_id: 3,
       instrument_text: "cello",
     },
+    {
+      instrument_id: 4,
+      instrument_text: "leader",
+    },
   ]);
 };

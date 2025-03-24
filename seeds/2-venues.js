@@ -32,6 +32,19 @@ exports.seed = async function (knex) {
       county_id: 1,
       venue_postcode: "HR8",
     },
+    {
+      venue_id: 3,
+      venue_name: "Berkeley Castle",
+      venue_email: "",
+      venue_phone_number: "",
+      venue_website: "https://www.berkeley-castle.com", // i am guessing...
+      venue_address_line1: "",
+      venue_address_line2: "",
+      venue_town: "Berkeley",
+      venue_city: "",
+      county_id: 2,
+      venue_postcode: "GL13 9BQ",
+    },
   ]);
 };
 

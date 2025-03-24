@@ -18,7 +18,7 @@ exports.seed = async function (knex) {
         "Formed under the midnight sun in Lofoten in 2005, the Engegård Quartet have rapidly become one of Norway’s most sought-after ensembles. Their bold, fresh interpretations of the classical repertoire, combined with a deep attachment to their Scandinavian roots, has attracted international acclaim and inspired some innovative partnerships and programming. The Quartet’s debut CD was praised as ‘breath-taking’ in The Strad, while their second release won Pizzicato magazine’s ‘Supersonic Award’. Recent CD releases include Mozart’s ‘Prussian Quartets’ and the complete string quartets of Schumann. Such is their stature that they have performed with such world-famous musicians as pianists Sir András Schiff and Leif Ove Andsnes.",
       concert_fee: "£18 (students free)",
       concert_fee_more_info: "",
-      concert_status_id: 1,
+      concert_status_id: 2,
       concert_book_tickets_link: "https://www.courtyard.org.uk", // needed?  superfluous? confusing? think...
     },
     {
@@ -27,10 +27,25 @@ exports.seed = async function (knex) {
       concert_title: " ",
       artist_entity_id: 2,
       venue_id: 2,
+      concert_overview: "overview text placeholder",
+      concert_description: "description text placeholder",
       concert_fee: "£15 (students £10)",
       concert_fee_more_info: "",
-      concert_status_id: 3,
+      concert_status_id: 1,
       concert_book_tickets_link: "https://www.courtyard.org.uk",
+    },
+    {
+      concert_id: 3,
+      concert_datetime: "2025-12-03 18:00:00",
+      concert_title: " ",
+      artist_entity_id: 3,
+      venue_id: 3,
+      concert_overview: "overview text placeholder",
+      concert_description: "description text placeholder",
+      concert_fee: "£35 (students £20)",
+      concert_fee_more_info: "",
+      concert_status_id: 1,
+      concert_book_tickets_link: "https://www.rosestheatre.org",
     },
   ]);
 };

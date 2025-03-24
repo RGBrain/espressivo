@@ -16,6 +16,11 @@ exports.seed = async function (knex) {
       artist_entity_name: "Cardiff Winds",
       artist_entity_website: "",
     },
+    {
+      artist_entity_id: 3,
+      artist_entity_name: "Orchestra Pro Anima",
+      artist_entity_website: "",
+    },
   ]);
 };
 
