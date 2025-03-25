@@ -17,7 +17,14 @@ const FutureEvents = () => {
           {/* here need to iterate through the next two future concerts AFTER the nearest one */}
 
           {arrayOfFutureConcertsData.map((concertDataObject, index) => (
-            <EventCard key={index} concertData={concertDataObject} />
+            <>
+              <div
+                key={index}
+                className="w-3/4 shrink-0 md:flex-grow-0 md:basis-5/12 lg:flex-grow lg:basis-2/5"
+              >
+                <EventCard key={index} concertData={concertDataObject} />
+              </div>
+            </>
           ))}
         </div>
       </div>

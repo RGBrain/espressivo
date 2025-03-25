@@ -13,9 +13,16 @@ export default function Home() {
         Forthcoming Concerts
       </h2>
       {/* THIS DIV ONLY SHOWS FOR SCREENS < 768 px (md:) */}
-      <div className="flex flex-col items-center gap-5 pt-8 md:hidden">
+      <div className="pt-8 md:hidden">
         {arrayOfFutureConcertsData.map((concertDataObject, index) => (
-          <EventCard key={index} concertData={concertDataObject} />
+          <>
+            <div key={index} className="mx-auto w-3/4">
+              <div className="mx-auto flex w-3/4 flex-col items-center">
+                <EventCard key={index} concertData={concertDataObject} />
+                <div className="my-10 w-80 max-w-sm border-b-2 border-orange border-opacity-35"></div>
+              </div>
+            </div>
+          </>
         ))}
       </div>
 

@@ -6,7 +6,7 @@ const EventCard = ({ concertData }) => {
 
   return (
     <div
-      className="flex h-[220px] w-3/4 max-w-sm shrink-0 flex-col items-start justify-end bg-cover bg-center md:basis-1/2 lg:h-[270px] lg:max-w-md lg:basis-2/5"
+      className="flex h-[220px] min-w-80 max-w-sm flex-col items-start justify-end bg-cover bg-center lg:h-[270px] lg:max-w-md"
       style={{ backgroundImage: `url(${imagePath})` }}
     >
       <div className="w-2xl w-full bg-black bg-opacity-70 pb-2">
