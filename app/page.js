@@ -1,4 +1,3 @@
-import { db, raw } from "../lib/db";
 import TopEventCard from "@/components/TopEventCard";
 import TopEventInfo from "@/components/TopEventInfo";
 import { getConcertDataForNextConcert } from "../lib/db";
